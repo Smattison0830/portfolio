@@ -1,5 +1,6 @@
 # General config
 # http://localhost:4567/__middleman
+activate :metaman, host: 'https://domain.com'
 
 # Import custom libraries and helpers
 Dir['./*/*.rb'].each { |file| load file }
@@ -23,7 +24,8 @@ activate :external_pipeline,
          name: :webpack,
          command: build? ? 'npm run build' : 'npm run start',
          source: 'dist',
-         latency: 1
+         latency: 1,
+
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
