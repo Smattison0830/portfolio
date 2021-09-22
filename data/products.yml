@@ -1,4 +1,9 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Easy Label
+  description: Automatically generate Japan Post shipping labels
+  image: easylabel.png
+  url: https://apps.shopify.com/easy-label-japan-post
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
