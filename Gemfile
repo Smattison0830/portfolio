@@ -4,6 +4,7 @@ gem 'middleman'
 gem 'middleman-autoprefixer'
 gem 'middleman-gh-pages'
 gem 'middleman-metaman'
+gem 'middleman-meta-tags'
 gem 'rake'
 gem 'rubocop'
 
@@ -14,4 +15,5 @@ group :test do
   gem 'cucumber'
   gem 'rspec'
   gem 'selenium-webdriver'
+  gem 'middleman-dotenv'
 end
