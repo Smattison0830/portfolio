@@ -1,9 +1,37 @@
-- name: Easy Label
-  description: Automatically generate Japan Post shipping labels
-  image: easylabel.png
-  url: https://apps.shopify.com/easy-label-japan-post
+- name: Midorin
+  description: A mobile app to help you take care of your plants. 
+  position: Back-end
+  image: midorin.png
+  github: https://github.com/HundiBar/Midorin
+  url: https://www.midorin.one/
+  youtube: https://youtu.be/z-8DkUq4SyA?t=2305
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
+
+- name: Central Gaijin Library
+  description: A marketplace app for foriegners where users can rent books from each others. 
+  position: Back-end
+  image: CGL.png
+  github: https://github.com/HundiBar/central-gaijin-library
+  url: http://cgl-hundibar.herokuapp.com/
+  youtube: https://youtu.be/V3R7pNjc1dY?t=855
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: WTF Should I Watch?
+  description: A app where you can create and manage your movie lists.
+  position: Full-stack developer 
+  image: watchlist2.png
+  github: 
+  url: http://wtfshouldiwatch.herokuapp.com/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-bootstrap-plain-wordmark
+    - devicon-heroku-original
+    - devicon-sass-plain

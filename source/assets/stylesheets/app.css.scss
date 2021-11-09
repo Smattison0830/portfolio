@@ -11,3 +11,54 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.card-category {
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    // width: 315px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #2b2a29;
+    position: relative;
+    margin-bottom: 10em;
+  }
+
+  .card-description {
+    background-image: linear-gradient(210deg, #ffb427 0%, #EB5C33 100%);
+    padding: 15px;
+    margin-top: -24px;
+    position: absolute;
+    bottom: -220px;
+    width: 90%;
+    border-radius: 5px;
+    height: 300px;
+    // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 15px #2b2a29;
+  
+    span {
+      color: #3a1d10;
+      font-size: 30px;
+    }
+    p {
+      margin-bottom: 4px;
+      font-weight: lighter;
+      color: #3a1d10;
+    }
+    h4 {
+      font-weight: bold;
+      color: #3a1d10;
+  
+    }
+    &:hover {
+      .external-link {
+        opacity: 1;
+      }
+    }
+  }
