@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="project-text">
+      <h1>PROJECTS</h1>
+    </div>
+    <% data.projects.each do |project| %>
+    <div class="project-container">
+      <div class="project-picture">
+      </div>
+      <div class="project-text">
+        <div class="project-text-header">
+          <h4><%= project.name %></h4>
+          <h5><%= project.position %></h5>
+        </div>
+        <div class="project-text-description">
+          <p><%= project.description %></p>
+        </div>
+        <div class="project-text-buttons">
+          <button></button>
+          <button></button>
+        </div>
+      </div>
+    </div>
+    <% end %>
+</div>
