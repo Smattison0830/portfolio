@@ -28,7 +28,7 @@
   description: A app where you can create and manage your movie lists.
   position: Full-stack developer 
   image: watchlist2.png
-  github: 
+  github: https://github.com/Smattison0830/WTF-should-I-watch
   url: http://wtfshouldiwatch.herokuapp.com/
   tags:
     - devicon-rails-plain-wordmark

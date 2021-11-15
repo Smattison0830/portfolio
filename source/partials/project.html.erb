@@ -1,24 +1,22 @@
-<div class="container">
-    <div class="project-text">
-      <h1>PROJECTS</h1>
-    </div>
-    <% data.projects.each do |project| %>
-    <div class="project-container">
-      <div class="project-picture">
+<div class="project-main-wrapper">
+  <div class="project-header">
+    <h1>PROJECTS</h1>
+  </div>
+  <% data.projects.each do |project| %>
+  <div class="project-wrapper">
+      <div class="image">
+        <img src= '../assets/images/<%= project.image %>' class="project-image">
       </div>
       <div class="project-text">
-        <div class="project-text-header">
-          <h4><%= project.name %></h4>
+          <h3><%= project.name %></h3>
           <h5><%= project.position %></h5>
-        </div>
-        <div class="project-text-description">
           <p><%= project.description %></p>
-        </div>
-        <div class="project-text-buttons">
-          <button></button>
-          <button></button>
+          <p><%= project.content %></p>
+        <div class="project-links">
+          <%= link_to "Website", project.url, class: 'website-button', target: '_blank'%>
+          <%= link_to "Github", project.github, class: 'github-dark-button', target: '_blank'%>
         </div>
       </div>
-    </div>
-    <% end %>
+  </div>
+  <% end %>
 </div>
