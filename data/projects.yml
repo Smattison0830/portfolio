@@ -1,37 +1,25 @@
 - name: Midorin
   description: A mobile app to help you take care of your plants. 
+  info: Midorin has watering reminders via the LINE messaging app to let you know when you plants need water. Midorin also has a built in plant photo recognition system for you to easily take pictures or plants and either gather information or add then to your garden.
   position: Back-end
   image: midorin.png
   github: https://github.com/HundiBar/Midorin
   url: https://www.midorin.one/
   youtube: https://youtu.be/z-8DkUq4SyA?t=2305
-  tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
 
 - name: Central Gaijin Library
-  description: A marketplace app for foriegners where users can rent books from each others. 
+  description: Central Gaijin Library is marketplace app targeted at foriegners in Japan where users can rent books from each others.
+  info: With CGL, users can list their books online to trade with other users. Using google book API, users can easily list books by using a ISBN number.
   position: Back-end
   image: CGL.png
   github: https://github.com/HundiBar/central-gaijin-library
   url: http://cgl-hundibar.herokuapp.com/
   youtube: https://youtu.be/V3R7pNjc1dY?t=855
-  tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
 
 - name: WTF Should I Watch?
   description: A app where you can create and manage your movie lists.
+  info: Easily create movie lists to share with your friends or to watch later.
   position: Full-stack developer 
   image: watchlist2.png
   github: https://github.com/Smattison0830/WTF-should-I-watch
   url: http://wtfshouldiwatch.herokuapp.com/
-  tags:
-    - devicon-rails-plain-wordmark
-    - devicon-bootstrap-plain-wordmark
-    - devicon-heroku-original
-    - devicon-sass-plain

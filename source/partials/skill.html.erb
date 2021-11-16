@@ -1,0 +1,15 @@
+<div class="skills-wrapper">
+<h1>skills</h1>
+    <% data.skills.each do |skill| %>
+        <div class="technology">
+            <% skill.techtags.each do |tag| %>
+                <span><i class="<%= tag %>"></i></span>
+            <% end %>
+        </div>
+        <div class="tools">
+            <% skill.toolstags.each do |tag| %>
+                <span><i class="<%= tag %>"></i></span>
+            <% end %>
+        </div>
+    <% end %>
+</div>
