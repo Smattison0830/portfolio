@@ -1,20 +1,23 @@
 <div class="main-skills-wrapper">
   <h1>Skills</h1>
   <div class="skills-wrapper col-12">
+    <p>When building my projects, I have used these technologies and tools.</p>
+    <div class="skills-text col-6">
       <% data.skills.each do |skill| %>
-          <div class="technology col-6">
-            <h5>Technology</h5>
-              <% skill.techtags.each do |tag| %>
-                  <span><i class="<%= tag %>"></i></span>
-              <% end %>
-          </div>
-          <div class="tools col-6">
-              <h5>Tools</h5>
-              <% skill.toolstags.each do |tag| %>
-                  <span><i class="<%= tag %>"></i></span>
-              <% end %>
-          </div>
+      <div class="technology">
+        <h5>Technology</h5>
+        <% skill.techtags.each do |tag| %>
+        <span><i class="<%= tag %>"></i></span>
+        <% end %>
+      </div>
+      <div class="tools">
+        <h5>Tools</h5>
+        <% skill.toolstags.each do |tag| %>
+        <span><i class="<%= tag %>"></i></span>
+        <% end %>
+      </div>
       <% end %>
+    </div>
   </div>
   <div class="my-skills">
     <h3></h3>

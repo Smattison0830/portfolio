@@ -1,11 +1,15 @@
-.technology {
-    i {
-        font-size: 80px;
+.main-skills-wrapper {
+    h5 {
+        text-align: center;
     }
 }
 
-.tools {
-    i {
-        font-size: 80px;
-    }
+.skills-wrapper {
+  display: flex;
+  p {
+    align-self: center;
+  }
+  i {
+    font-size: 80px;
+  }
 }

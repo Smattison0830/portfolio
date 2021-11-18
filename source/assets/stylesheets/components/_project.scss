@@ -3,7 +3,6 @@
 }
 
 .project-header {
-    padding-left: 4%;
     background-color: blueviolet;
 
     h1 {
@@ -28,10 +27,10 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 5%;
+    img {
+        width: 50%;
+        height: 600px;
+        width: 300px;
+    }  
 }
 
-img {
-    width: 50%;
-    height: 600px;
-    width: 300px;
-}  

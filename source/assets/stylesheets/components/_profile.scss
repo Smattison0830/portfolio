@@ -3,5 +3,14 @@
 }
 
 .profile-text {
-    place-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.profile-image {
+    img {
+        width: 50%;
+        width: 300px;
+    }  
 }
