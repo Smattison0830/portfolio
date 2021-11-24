@@ -6,11 +6,15 @@
 @import "skill";
 
 
+.container {
+    margin:0;
+}
+
 h1 {
     font-family: SignPainter;
     font-weight: normal;
     font-size: 4rem;
-    line-height: 139px;
+    line-height: 160px;
     padding-left: 5%;
-    background-color: darkturquoise;
+    margin: 0px
 }

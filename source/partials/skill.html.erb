@@ -6,15 +6,19 @@
       <% data.skills.each do |skill| %>
       <div class="technology">
         <h5>Technology</h5>
-        <% skill.techtags.each do |tag| %>
-        <span><i class="<%= tag %>"></i></span>
-        <% end %>
+        <div class="tools-icons">
+          <% skill.techtag.each do |tag| %>
+              <i class="<%= tag %>"></i>
+          <% end %>
+        </div>  
       </div>
       <div class="tools">
         <h5>Tools</h5>
-        <% skill.toolstags.each do |tag| %>
-        <span><i class="<%= tag %>"></i></span>
-        <% end %>
+        <div class="tools-icons">
+          <% skill.tooltag.each do |tag| %>
+            <i class="<%= tag %>"></i>
+          <% end %>
+        </div>
       </div>
       <% end %>
     </div>
