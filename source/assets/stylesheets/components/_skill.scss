@@ -1,7 +1,20 @@
 .main-skills-wrapper {
+  h1{
+    text-align: center;
+
+  }
     h5 {
         text-align: center;
     }
+}
+
+.technology {
+  max-width: 300px;
+}
+
+.skills-text {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .skills-wrapper {
