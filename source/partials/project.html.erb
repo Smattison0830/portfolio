@@ -4,18 +4,20 @@
   </div>
   <% data.projects.each do |project| %>
   <div class="project-wrapper">
+    <div class="project-container">
       <div class="image">
         <img src= '../assets/images/<%= project.image %>' class="project-image">
       </div>
       <div class="project-text">
           <h3><%= project.name %></h3>
-          <h5><%= project.position %></h5>
-          <p><%= project.info %></p>
+          <p class="description""><%= project.description %></p>
+          <p class="info"><%= project.info %></p>
         <div class="project-links">
-          <%= link_to "Website", project.url, class: 'website-button', target: '_blank'%>
-          <%= link_to "Github", project.github, class: 'github-dark-button', target: '_blank'%>
+          <%= link_to "Website", project.url, class: 'btn btn-primary', target: '_blank'%>
+          <%= link_to "Github", project.github, class: 'btn btn-primary', target: '_blank'%>
         </div>
       </div>
+    </div>
   </div>
   <% end %>
 </div>

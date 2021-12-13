@@ -1,19 +1,23 @@
 .image-text-container {
     display: flex;
+    justify-content: center;
+    background-color: seashell;
+    padding: 80px;
+
 }
 
 .profile-text {
     display: flex;
+    padding-left: 40px;
     justify-content: space-evenly;
     flex-direction: column;
-    max-width: 480px;
-    background-color: burlywood;
+    background-color: seashell;
 
 }
 
 .profile-image {
     img {
-        width: 50%;
-        width: 480px;
+        max-width: 360px;
+        width: 100%;
     }  
 }

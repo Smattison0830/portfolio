@@ -7,14 +7,19 @@
 
 
 .container {
-    margin:0;
+    margin-left:5rem;
 }
 
 h1 {
+    text-align: center;
     font-family: SignPainter;
     font-weight: normal;
     font-size: 4rem;
     line-height: 160px;
     padding-left: 5%;
     margin: 0px
+}
+
+p {
+    margin-bottom: 2rem;
 }
