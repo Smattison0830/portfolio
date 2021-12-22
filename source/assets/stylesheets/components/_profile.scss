@@ -12,6 +12,10 @@
     flex-direction: column;
     background-color: seashell;
     font-family: fantasy;
+    p {
+        font-family: monospace;
+        margin-bottom: 2rem;
+    }
 }
 
 .profile-image {
