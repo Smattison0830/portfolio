@@ -12,6 +12,7 @@
 .project-header {
     h1 {
         padding-bottom: 24px;
+        font-size: 7rem;
     }
 }
 
@@ -50,7 +51,14 @@
 }
 
 .project-links {
-    text-align-last: end;
+    display: flex;
+    justify-content: space-evenly;
+    top: 10%;
+    position: relative;
+}
+
+.link-icon {
+    height: 80px
 }
 
 @media (max-width: 768px) {

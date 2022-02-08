@@ -13,8 +13,12 @@
           <p class="description""><%= project.description %></p>
           <p class="info"><%= project.info %></p>
         <div class="project-links">
-          <%= link_to "Website", project.url, class: 'btn btn-primary', target: '_blank'%>
-          <%= link_to "Github", project.github, class: 'btn btn-primary', target: '_blank'%>
+        <a class="external-links" href=<%= project.url %> target="_blank">
+          <img class="link-icon", src="../assets/images/globe-solid.svg"></img>
+        </a>
+          <a class="external-links" href=<%= project.github %> target="_blank">
+            <img class="link-icon", src="../assets/images/github-square.svg"></img>
+           </a>
         </div>
       </div>
     </div>
