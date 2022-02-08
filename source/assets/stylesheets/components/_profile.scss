@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 80px;
+    padding: 120px;
     padding-top: 200px;
 }
 
@@ -22,8 +22,9 @@
 .profile-image {
     margin-bottom: 32px;
     text-align: center;
+    padding-right: 36px;
     img {
-        max-width: 320px;
+        max-width: 360px;
         width: 100%;
         border-radius: 10%;
     }  
@@ -34,11 +35,29 @@
     padding-bottom: 40px;
 }
 
+.button-bottom {
+    text-align: center;
+}
+
 .links {
     display: grid;
     background-color: white;
     padding-bottom: 200px;
+    font-family: SignPainter;
+    font-size: 80px;
+    text-decoration: none;
 
+    a:hover {
+        color: blue;
+    }
+}
+
+.about-link {
+    margin-right: 500px;
+}
+
+.project-link {
+    margin-right: 200px;
 }
 
 @media (max-width: 768px) {

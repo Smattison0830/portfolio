@@ -1,6 +1,6 @@
 - name: Midorin
   description: A mobile app to help you take care of your plants. 
-  info: Midorin has watering reminders via the LINE messaging app to let you know when your plants need water. Midorin also has a built in plant photo recognition system for you to easily take pictures or plants and either gather information or add then to your garden.
+  info: Midorin has watering reminders via the LINE messaging app to let you know when your plants need water. Midorin also has a built in plant photo recognition system for you to easily take pictures of plants and either gather information or add then to your garden.
   position: Back-end
   image: midorin.png
   github: https://github.com/HundiBar/Midorin
