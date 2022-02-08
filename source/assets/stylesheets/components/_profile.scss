@@ -1,8 +1,9 @@
 .image-text-container {
     display: flex;
     justify-content: center;
-    background-color: seashell;
+    background-color: white;
     padding: 80px;
+    padding-top: 200px;
 }
 
 .profile-text {
@@ -10,7 +11,7 @@
     padding-left: 40px;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: seashell;
+    background-color: white;
     font-family: fantasy;
     p {
         font-family: monospace;
@@ -24,8 +25,20 @@
     img {
         max-width: 320px;
         width: 100%;
-        border-radius: 50%;
+        border-radius: 10%;
     }  
+}
+
+.button-top {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.links {
+    display: grid;
+    background-color: white;
+    padding-bottom: 200px;
+
 }
 
 @media (max-width: 768px) {

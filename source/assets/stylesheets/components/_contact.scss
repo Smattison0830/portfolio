@@ -1,13 +1,21 @@
-.form-container {
+.contact-container {
     width: 100%;
     text-align: center;
     h3 {
         font-family: SignPainter;
         font-weight: normal;
         font-size: 4rem;
+        color: white;
     }
 }
 
 .footer {
     font-size: 80px;
+    a {
+        color: white;
+    }
+}
+
+.devicon-github-original {
+    color: white;
 }

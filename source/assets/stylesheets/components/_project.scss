@@ -6,7 +6,7 @@
 }
 
 .project-main-wrapper {
-    background-color: seashell;
+    background-color: white;
 }
 
 .project-header {
@@ -45,6 +45,7 @@
     img {
         width: 100%;
         max-height: 600px;
+        border-radius: 10px;
     }  
 }
 
@@ -87,6 +88,7 @@
             width: 50%;
             margin-left: 8rem;
             margin-bottom: 16px;
+            
         }  
     }
     .project-container {
