@@ -1,6 +1,7 @@
 - name: Midorin
   description: A mobile app to help you take care of your plants. 
   info: Midorin has watering reminders via the LINE messaging app to let you know when your plants need water. Midorin also has a built in plant photo recognition system for you to easily take pictures of plants and either gather information or add then to your garden.
+  technology: Ruby on Rails, Javascript, Line messaging API, Plant.id(plant scanner), Postgres, Heroku
   position: Back-end
   image: midorin.png
   github: https://github.com/HundiBar/Midorin
@@ -10,6 +11,7 @@
 - name: Central Gaijin Library
   description: Central Gaijin Library is marketplace app targeted at foriegners in Japan where users can rent books from each others.
   info: With CGL, users can list their books online to trade with other users. Using google book API, users can easily list books by using an ISBN number.
+  technology: Ruby on Rails, Javascript, Google Books API, Postgres, Heroku
   position: Back-end
   image: CGL.png
   github: https://github.com/HundiBar/central-gaijin-library
@@ -19,6 +21,7 @@
 - name: WTF Should I Watch?
   description: A app where you can create and manage personalized movie lists. 
   info: Easily create movie lists from our movie database to share with your family and friends or to watch later.
+  technology: Ruby on Rails, Javascript, Postgres, Heroku
   position: Full-stack developer 
   image: watchlist2.png
   github: https://github.com/Smattison0830/WTF-should-I-watch

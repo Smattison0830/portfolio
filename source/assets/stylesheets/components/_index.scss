@@ -6,10 +6,33 @@
 @import "about-me";
 
 h1 {
-    background-color: #38b6ff;
     text-align: center;
     font-family: SignPainter;
     font-weight: normal;
     font-size: 8rem;
     margin: 0px;
+    text-shadow: 2px 2px 5px #167ffb;
 }
+
+body {
+    background-color: white;
+}
+
+// h1 {
+//     animation: 4s anim-flipX ease;
+//   }
+//   @keyframes anim-flipX {
+//     0% {
+//       opacity: 0;
+//       transform: rotateX(90def);
+//     }
+//     50% {
+//       opacity: 1;
+//       transform: rotateX(720deg);
+//     }
+//     100% {
+//       /* animate nothing to pause animation at the end */
+//       opacity: 1;
+//       transform: rotateX(720deg);
+//     }
+//   }

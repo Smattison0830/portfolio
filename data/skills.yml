@@ -1,15 +1,16 @@
-- description: A  Full Stack Web Developer from the USA currently living in Osaka, Japan.
+- description: A Full Stack Web Developer from the USA currently living in Osaka, Japan.
   info:  
   techtag:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
-    - devicon-bootstrap-plain-wordmark
+    - devicon-rails-plain-wordmark colored
+    - devicon-postgresql-plain-wordmark colored
+    - devicon-heroku-line-wordmark colored
+    - devicon-javascript-plain colored
+    - devicon-bootstrap-plain colored
     - devicon-sass-plain
-    - devicon-css3-plain
-    - devicon-html5-plain
+    - devicon-css3-plain colored
+    - devicon-html5-plain colored
+    - devicon-react-original-wordmark colored
   tooltag:
-    - devicon-figma-plain
-    - devicon-git-plain-wordmark
+    - devicon-figma-plain colored
+    - devicon-git-plain-wordmark colored
     - devicon-github-original-wordmark colored
