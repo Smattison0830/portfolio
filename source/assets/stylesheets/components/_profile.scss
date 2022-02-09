@@ -1,8 +1,9 @@
 .image-text-container {
     display: flex;
-    justify-content: center;
     background-color: white;
-    padding: 120px;
+    width: 100%;
+    padding: 140px;
+    padding-top: 60px;
     padding-bottom: 24px;
 }
 
@@ -19,20 +20,21 @@
     }
 }
 
+.text {
+    align-self: center;
+}
+
 .profile-image {
-    margin-bottom: 32px;
-    text-align: center;
-    padding-right: 36px;
-    img {
-        max-width: 360px;
-        width: 100%;
-        border-radius: 10%;
-    }  
+    margin-bottom: 4px;
+    margin-right: 32px;
+    max-width: 360px;
+    border-radius: 10%;
+    max-height: 300px;
 }
 
 .button-top {
     text-align: center;
-    padding-bottom: 40px;
+    // padding-bottom: 40px;
 }
 
 .button-bottom {
@@ -42,7 +44,7 @@
 .links {
     display: grid;
     background-color: white;
-    padding-bottom: 500px;
+    padding-bottom: 100px;
     font-family: SignPainter;
     font-size: 80px;
     text-decoration: none;
