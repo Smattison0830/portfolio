@@ -62,6 +62,37 @@
     margin-right: 200px;
 }
 
+@media (max-width: 992px) {
+    .image-text-container {
+        padding: 48px;
+    } 
+    .profile-image {
+        margin-bottom: 32px;
+        text-align: center;
+        justify-self: center;
+            img {
+                width: 80%;
+            }  
+        }
+    .profile-text {
+        padding: 0px;
+    }
+    .links {
+        display: flex;
+        place-content: space-evenly;
+            a{
+                margin: 0px;
+            }
+    }
+    .about-link {
+        padding-right: 24px;
+    }
+
+    .project-link {
+        padding-right: 24px;
+    }
+}
+
 @media (max-width: 768px) {
     .image-text-container {
         padding: 32px;
@@ -72,12 +103,4 @@
     .image-text-container {
         display: grid;
     }
-    .profile-image {
-        margin-bottom: 32px;
-        text-align: center;
-            img {
-                width: 80%;
-            }  
-        }
-
 }
